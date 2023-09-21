@@ -1,0 +1,100 @@
+body {
+	 background-color: #A9BEDE;
+font-family: 'Playfair Display', serif;
+  margin: 1rem auto;
+	 max-width: 100rem;
+}
+
+h1 {
+  font-size:50px;
+}
+p {
+  color:black;
+}
+
+/*Rainbow*/
+.medal {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f947.png) 36 36, auto;
+}
+p {
+ font-size: 20px;
+}
+section{
+  display: flex;
+}
+.tooltiptext {
+  visibility:hidden;
+}
+.award:hover .tooltip{
+  visibility:visible;
+}
+figure{
+  display:flex;
+  align-self: flex-start;
+  position:sticky;
+  top:3em;
+}
+h3{
+  font-size:30px;
+}
+h4{
+  font-size:30px;
+}
+h5{
+  font-size:30px;
+}
+ .tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  color: white;
+  background-color: #192733;
+  padding: 5px;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  color: white;
+  background-color: #192733;
+  padding: 5px;
+}
+
+.hover-text:hover .tooltip-text {
+  visibility: visible;
+}
+
+.top {
+  top: -30px;
+  left: -20%;
+}
+
+.bottom {
+  top: 25px;
+  left: -50%;
+}
+
+
+.right {
+  top: -8px;
+  left: 50%;
+}
+
+.hover-text {
+  position: relative;
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+}
+/*swimmer*/
+.swimmer {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3ca.png) 36 36, auto;
+}
+
+/*surfer*/
+.surfer {
+  cursor: url(https://abs.twimg.com/emoji/v2/72x72/1f3c4.png) 36 36, auto;
+}
